@@ -190,8 +190,10 @@ js type coercion
 
 // //initialization
 // // var a;
-// // console.log(a);
-// // const a = 12;
+
+ // // console.log(a);
+ // // const a = 12;
+
 
 //--------------------------------------Closure-------------------------------
 
