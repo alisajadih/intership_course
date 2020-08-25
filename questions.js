@@ -14,7 +14,7 @@ sayHi();
 
 // ************************************************************************************************************
 
-// 2) What's the output
+// 2) What's the output 
 for (var i = 0; i < 3; i++) {
   setTimeout(() => console.log(i), 1);
 }
@@ -22,6 +22,7 @@ for (var i = 0; i < 3; i++) {
 for (let i = 0; i < 3; i++) {
   setTimeout(() => console.log(i), 1);
 }
+
 // A: 0 1 2 and 0 1 2
 // B: 0 1 2 and 3 3 3
 // C: 3 3 3 and 0 1 2
@@ -101,7 +102,6 @@ console.log(greetign);
 function bark() {
   console.log("Woof!");
 }
-
 bark.animal = "dog";
 //   A: Nothing, this is totally fine!
 //   B: SyntaxError. You cannot add properties to a function this way.
@@ -240,9 +240,9 @@ baz();
 //17)What's the output?
 function sayHi() {
     return (() => 0)();
-  }
-  
-  console.log(typeof sayHi());
+}
+
+console.log(typeof sayHi());
 //   A: "object"
 //   B: "number"
 //   C: "function"
@@ -280,6 +280,7 @@ console.log(typeof typeof 1);
   },
   [1, 2],
 );
+
 // A: [0, 1, 2, 3, 1, 2]
 // B: [6, 1, 2]
 // C: [1, 2, 0, 1, 2, 3]

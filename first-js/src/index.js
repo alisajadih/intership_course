@@ -60,10 +60,15 @@ js type coercion
 // a.name = "hi ";
 //------------------------------------Object-----------------------
 
-// let a = {
-//   name: "david",
-//   age: 15,
-// };
+let a = {
+  name: "david",
+  age: 15,
+};
+
+let temp = 'name'
+console.log(a['name'])
+// a[temp]
+
 // const temp = [
 //   ["name", "david"],
 //   ["age", 15],
@@ -191,8 +196,8 @@ js type coercion
 // //initialization
 // // var a;
 
- // // console.log(a);
- // // const a = 12;
+//  console.log(a);
+//  const a = 12;
 
 
 //--------------------------------------Closure-------------------------------
